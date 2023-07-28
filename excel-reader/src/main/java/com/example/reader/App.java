@@ -10,15 +10,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) {
-        // #write program to read excel file and print out the content in first column
-        // of each row using POI library
-
         try {
             readExcelFile("myexcel.xlsx");
         } catch (IOException e) {
